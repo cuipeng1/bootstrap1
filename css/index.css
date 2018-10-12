@@ -1,0 +1,356 @@
+img{
+    display: block;
+    width:100%;
+    border-radius: 3px;
+}
+a:hover{
+    text-decoration: none;
+}
+.navbar-default{
+    background: rgba(255,255,255,0.9)
+}
+.navbar-brand{
+    background: url(../img/logo.png) no-repeat;
+    background-size: 100%;
+    background-position: center center;
+    /*margin-left:20px;*/
+    width:100px;
+}
+.navbar-nav{
+    margin-left:5%;
+}
+.navbar-nav li{
+    margin-left:10px;
+    font-size: 16px;
+
+}
+.container-fluid .row img{
+    width:100%;
+}
+.row,.container-num{
+    text-align: center;
+}
+.container-num{
+    padding: 40px 0;
+}
+.num{
+    font-size: 15px;
+}
+.num::first-line{
+    font-size: 50px;
+    color:#0ba1e4;
+}
+h1,.title,.num{
+    margin-top:40px;
+}
+.advantage1{
+    background: #e1e1e1;
+    padding-right: 0;
+}
+.advantage1 .distance{
+    margin-top:40px;
+}
+.advantage2{
+    background: #f5f5f5;
+}
+.col-sm-3 section{
+    width:85%;
+    background: #fff;
+    margin:0 auto;
+    padding:25px;
+    box-sizing: border-box;
+    border:1px solid #ccc;
+    border-radius: 5px;
+}
+.col-sm-3 section span{
+    position: relative;
+    z-index: 10;
+}
+.col-sm-3 section:hover{
+    background: #0ba1e4;
+    color:#fff;
+    transition-duration: .5s;
+}
+.col-sm-3 section:hover span,
+.service section:hover h4{
+    color:#fff;
+    transition-duration: .5s;
+}
+.col-sm-3 section:hover .btn{
+    color:#0ba1e4;
+    transition-duration: .5s;
+    border: 1px solid #fff;
+    background: #fff;
+}
+.col-sm-3 section .glyphicon{
+    color: #0ba1e4;
+    font-size: 80px;
+    line-height: 1.5em;
+}
+.service .distance{
+    margin-top:40px;
+}
+.service section{
+    background: #fff;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+.service section div{
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+.service section p{
+    margin-top:20px;
+}
+.btn-color{
+    background: transparent;
+    border:1px solid #0ba1e4;
+    color:#0ba1e4;
+    margin-top:20px;
+}
+.btn-color1{
+    margin-top:40px;
+}
+.btn-color1:hover{
+    background: #0ba1e4;
+    transition-duration: .5s;
+}
+.card-title h4{
+    color:#0ba1e4;
+    font-weight: bold;
+}
+.col-sm-6{
+    margin-top:20px;
+    height:130px;
+    padding-left:40px;
+    padding-right:40px;
+    line-height: 1.8;
+}
+.col-sm-6 .col-xs-4{
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.col-sm-6 .col-xs-4 img{
+    width:100%;
+    height:110px;
+}
+.col-xs-8{
+    padding: 5px;
+}
+.col-sm-4 section{
+    width:85%;
+    /*border:1px solid red;*/
+    height:300px;
+    margin: 0 auto;
+}
+.list{
+    width:100%;
+    padding: 40px 10px 10px 10px;
+    border:1px solid green;
+    margin-top:20px;
+    text-align: left;
+}
+.list img{
+    width:50px !important;
+    height:50px;
+    border-radius: 50%;
+    display: block;
+    margin:0 auto;
+    margin-top:-65px;
+    margin-bottom: 15px;
+}
+.col-sm-4 section h5{
+    width:15px;
+    height:15px;
+    border-right:1px solid green;
+    border-bottom:1px solid green;
+    transform: rotate(45deg);
+    margin:0 auto;
+    margin-top:-7px;
+    background: #f5f5f5;
+    
+}
+.Prove{
+    display: flex;
+    justify-content: space-between;
+    color:#aaa;
+    font-size: 12px;
+}
+.Prove>span:nth-child(1){
+    background: #aaa;
+    padding: 1px 10px;
+    color:#fff;
+}
+.mark{
+    width:70px;
+    height:70px;
+    border:1px solid green;
+    border-radius: 50%;
+    background: transparent;
+    margin:0 auto;
+    font-size: 100px;
+    line-height: 90px;
+    color:green;
+    margin-top:20px;
+}
+.desc{
+    color:#999;
+    text-align: left;
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height:87px;
+}
+.desc span:nth-child(3){
+    height:40px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.new-title{
+    text-align: left;
+    font-size: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    height:30px;
+}
+.mall{
+    font-size: 20px;
+    margin-top:20px;
+    display: block;
+}
+.md{
+    margin-top:20px;
+}
+.md div{
+    width:85%;
+    border:1px solid #ccc;
+    margin: 0 auto;
+}
+.md div img{
+    width:100%;
+     filter: grayscale(100%);
+    filter: gray;
+}
+.md div:hover img{
+    filter: grayscale(0%);
+    transition-duration: .5s;
+}
+.md div:hover{
+    background: #fff;
+    border: 1px solid #0ba1e4;
+    box-shadow: 0 0 5px #0ba1e4;
+    transition-duration: .5s;
+}
+.Consultation{
+    background: url(../img/footer.png) no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    padding:20px 0;
+    color:#fff;
+}
+.Consultation h1,
+.Consultation div,
+.Consultation a{
+    margin-top:20px;
+}
+.Consultation a:hover,
+.Consultation a:focus,
+.Consultation a:active{
+    background: #fff;
+    color:#0ba1e4;
+}
+.contact{
+    background: #363636;
+}
+.contact .container{
+
+    padding: 20px 0;
+}
+.contact .container .col-xs-2,
+.contact .container .col-xs-4,
+.contact .container .col-xs-6,
+.contact .container .col-xs-12{
+    color:#fff;
+    text-align: center;
+}
+.contact .container .col-xs-6 span{
+    font-size: 18px;
+    margin:20px  0;
+    display: block;
+}
+.contact .container .col-xs-6 p{
+    margin-top:15px;
+}
+.contact .container .col-xs-6 img{
+    width: 90px;
+    height: 90px;
+    display: block;
+    margin:0 auto;
+    margin-top:20px;
+}
+.contact .container .col-xs-12 {
+    font-size: 18px;
+}
+.contact .container .col-xs-12 img{
+    width:40px;
+    height:40px;
+    vertical-align: middle;
+    display: inline-block;
+}
+.contact .container .col-xs-12 p {
+    display: flex; 
+}
+.contact .container .col-xs-12 p:nth-child(1){
+    margin-top:20px;
+}
+.contact .container .col-xs-12 p span{
+    display: inline-block;
+}
+.contact .container .col-xs-12 p span:nth-child(1){
+    width:30%;
+}
+.contact .container .col-xs-12 p span:nth-child(2){
+    width:70%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.copy{
+    background: #666;
+}
+.copy .container img{
+    width:20px;
+    height:20px;
+    display: inline-block;
+}
+.copy .container{
+    padding: 20px 0;
+}
+.copy .container p{
+    text-align: center;
+    margin-top:20px;
+    color:#fff;  
+}
+#toggle-checkbox:checked ~div{
+    display: block !important;
+}
+#toggle-label{
+    display: inline-block;
+    position: absolute;
+    right:15px;
+    top:13px;
+    font-size: 16px;
+    font-weight: bold;
+    color:#666;
+    display: none
+}
+#toggle-label:hover{
+    color:#333;
+}
